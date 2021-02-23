@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to security-json-to-csv 👋</h1>
 <p>
-  <a href="https://www.npmjs.com/package/security-json-to-csv" target="_blank">
+  <a href="https://img.shields.io/npm/v/security-json-to-csv" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/security-json-to-csv.svg">
   </a>
   <a href="https://github.com/Nandolinhares/security-json-to-csv" target="_blank">
