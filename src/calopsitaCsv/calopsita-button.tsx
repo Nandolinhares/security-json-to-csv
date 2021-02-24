@@ -268,9 +268,10 @@ const CalopsitaButton: React.FC = () => {
       oi: 'fewfwe'
     }
   ]
-  const handleClick = (): void => {
-    const calopsitaCsv = new CalopsitaCsv()
-    calopsitaCsv.convertJsonToCsv(values, filename, '123');
+  const handleClick = async (): Promise<any> => {
+    const calopsitaCsv = new CalopsitaCsv();
+   
+    await calopsitaCsv.convertJsonToCsv(values, filename, '123');
   }
   return(
     <button onClick={handleClick}>Converter</button>

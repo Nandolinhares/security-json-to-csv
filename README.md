@@ -39,16 +39,24 @@ const values = [
     password: 'teste32'
   }]
   
-const calopsitaCsv = new CalopsitaCsv()
-calopsitaCsv.convertJsonToCsv(values, `filename`, 'password')
+const handleClick = async (): Promise<any> => {
+    const calopsitaCsv = new CalopsitaCsv();
+   
+    await calopsitaCsv.convertJsonToCsv(values, filename, '123');
+  }
 ```
 
 ## Author
 
 👤 **Fernando Linhares**
 
-* Website: https://github.com/nandolinhares
+* Website: https://github.com/Nandolinhares
 * Github: [@nandolinhares](https://github.com/nandolinhares)
+* LinkedIn: [@fernandovianalinhares](https://linkedin.com/in/fernandovianalinhares)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Nandolinhares/security-json-to-xlsx/issues). 
 
 ## Show your support
 
