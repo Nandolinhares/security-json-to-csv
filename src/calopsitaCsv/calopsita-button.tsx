@@ -273,8 +273,17 @@ const CalopsitaButton: React.FC = () => {
    
     await calopsitaCsv.convertJsonToCsv(values, filename, 'password');
   }
+
+  const handleClick2 = async (): Promise<any> => {
+    const calopsitaCsv = new CalopsitaCsv()
+   
+    await calopsitaCsv.convertJsonToCsvBase64(values, filename, '123');
+  }
   return(
-    <button onClick={handleClick}>Converter</button>
+    <section>
+      <button onClick={handleClick}>Converter</button>
+      <button onClick={handleClick2}>ConverterBase64</button>
+    </section>
   )
 }
 
